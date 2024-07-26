@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>Text Encryptor</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a>
+        <a href="https://github.com/Alejo-gaor" target="_blank">GitHub</a>
+    </header>
+    <main>
+        <div class="header-titulo">
+            <h1>Encriptador de texto<br><span>Text Encryptor</span></h1>
+            <p class="parrafo">Este programa está diseñado para encriptar texto ingresado por el usuario utilizando un sencillo pero efectivo método de sustitución de caracteres. <span>Program is designed to encrypt text entered by the user using a simple yet effective character substitution method.</span></p>
+            
+        </div>
+        <div class="contenedor">
+            <div class="left">
+                <textarea name="" class="Input" id="entrada" cols="20" rows="20" placeholder=" Enter text here"></textarea>
+        
+                 <div class="botones-main">
+                    <button class="bottonMain" onclick="encriptar()">Encriptar - <span>Encript</span></button>
+                    <button class="bottonMain" onclick="desencriptar()">Desencriptar - <span>Decrypt</span></button>
+                 </div>
+            </div>
+        
+            <div class="right">
+                <textarea name="" class="Input" id="salida" cols="20" rows="20"  placeholder="Output"></textarea>
+                <div class="pieSalida">
+                    <button class="bottonCopiar" onclick="copiar()">Copiar - <span>Copy</span></button>
+                    <p id="confirmCopiar"></p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="ultimo">
+            <h2>&copy; Gaor Design | Giovanny Oyola Rivas</h2>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+    
+    <script src="./javascript.js"></script>
+</body>
+</html>
