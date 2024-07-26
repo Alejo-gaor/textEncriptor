@@ -1,7 +1,7 @@
 <h1>Text Encryptor</h1>
 
 <p style="text-align: justify">Text Encryptor es una aplicación web sencilla pero efectiva diseñada para encriptar y desencriptar texto ingresado por el usuario. Utiliza un método de sustitución de caracteres para transformar el texto, proporcionando una capa básica de seguridad para la información sensible. Esta herramienta es ideal para usuarios que desean experimentar con conceptos básicos de criptografía en una interfaz amigable.</p>
-<img src="./img/img1.png" style="width: 1400px; height: 60px">
+<img src="./img/img1.png" style="width: 1400px; height: 800px">
 
 <h2>Características</h2>
 <ul>
