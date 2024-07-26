@@ -27,13 +27,15 @@
        <li>Optimizado para pantallas de escritorio y monitores de alta resolución.</li>
     </ul>
   </li>
+  <br>
   <li>768 x 1174 píxeles</li>
   <img src="./img/tablets.png" style ="width: 600px; height: 800px">
     <ul>
       <li>Ideal para tabletas y dispositivos con pantallas intermedias.</li>
     </ul>
+  <br>
   <li>375 x 933 píxeles</li>
-  <img src="./img/phone.png" style ="width: 400px; height: 500px">
+  <img src="./img/phone.png" style ="width: 350px; height: 550px">
     <ul>
       <li>Diseñado para smartphones con pantallas más largas y estrechas.</li>
     </ul>
